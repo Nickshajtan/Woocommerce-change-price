@@ -1,0 +1,18 @@
+/*-- Invalid --*/
+.hcc-wc-err.description{
+    font-weight: bolder; 
+    color: red;
+}
+/*-- Valid --*/
+.hcc-wc-scs.description{
+    font-weight: bolder; 
+    color: green;
+}
+
+.header-response{
+    display: none;
+}
+.header-response.hcc-wc-scs, .header-response.hcc-wc-err{
+    display: block;
+}
+/*# sourceMappingURL=woo_ajax.min.css.map */
