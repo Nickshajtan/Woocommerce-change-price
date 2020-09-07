@@ -1,0 +1,44 @@
+/** Colors **/
+/** Fonts Vars **/
+/** Font Sizes Vars **/
+/** Font Sizes Vars **/
+/** Font Sizes Vars **/
+/** Gradients **/
+/** Base settings: margin, pseudo, placeholders, z-index, etc. **/
+/** Fonts settings **/
+/** Flexbox settings **/
+/** CSS grid settings **/
+/** Background settings **/
+/** Buttons settings **/
+/** Settings for CSS figures splits **/
+/** Animate & effects settings **/
+/** Media settings **/
+/** Images sprite **/
+/** Icons font **/
+/** Components **/
+body ul {
+  margin: 0;
+  padding-left: 0; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1210px; } }
+
+/** SVG sprite **/
+/** Font Icons **/
+.icon {
+  font-family: 'custom-svgFont';
+  speak: none;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon:before {
+  content: ''; }
+
+/*# sourceMappingURL=theme-styles.min.css.map */

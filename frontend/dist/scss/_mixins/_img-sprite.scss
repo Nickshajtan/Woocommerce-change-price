@@ -1,0 +1,277 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$-android-2-name: 'Android@2';
+$-android-2-x: 0px;
+$-android-2-y: 0px;
+$-android-2-offset-x: 0px;
+$-android-2-offset-y: 0px;
+$-android-2-width: 72px;
+$-android-2-height: 66px;
+$-android-2-total-width: 340px;
+$-android-2-total-height: 283px;
+$-android-2-image: '../img/sprite@2x.png';
+$-android-2: (0px, 0px, 0px, 0px, 72px, 66px, 340px, 283px, '../img/sprite@2x.png', 'Android@2', );
+$-angular-j-s-2-name: 'AngularJS@2';
+$-angular-j-s-2-x: 67px;
+$-angular-j-s-2-y: 217px;
+$-angular-j-s-2-offset-x: -67px;
+$-angular-j-s-2-offset-y: -217px;
+$-angular-j-s-2-width: 58px;
+$-angular-j-s-2-height: 66px;
+$-angular-j-s-2-total-width: 340px;
+$-angular-j-s-2-total-height: 283px;
+$-angular-j-s-2-image: '../img/sprite@2x.png';
+$-angular-j-s-2: (67px, 217px, -67px, -217px, 58px, 66px, 340px, 283px, '../img/sprite@2x.png', 'AngularJS@2', );
+$-perl-2-name: 'Perl@2';
+$-perl-2-x: 0px;
+$-perl-2-y: 71px;
+$-perl-2-offset-x: 0px;
+$-perl-2-offset-y: -71px;
+$-perl-2-width: 66px;
+$-perl-2-height: 70px;
+$-perl-2-total-width: 340px;
+$-perl-2-total-height: 283px;
+$-perl-2-image: '../img/sprite@2x.png';
+$-perl-2: (0px, 71px, 0px, -71px, 66px, 70px, 340px, 283px, '../img/sprite@2x.png', 'Perl@2', );
+$-ruby-2-name: 'Ruby@2';
+$-ruby-2-x: 278px;
+$-ruby-2-y: 142px;
+$-ruby-2-offset-x: -278px;
+$-ruby-2-offset-y: -142px;
+$-ruby-2-width: 62px;
+$-ruby-2-height: 66px;
+$-ruby-2-total-width: 340px;
+$-ruby-2-total-height: 283px;
+$-ruby-2-image: '../img/sprite@2x.png';
+$-ruby-2: (278px, 142px, -278px, -142px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'Ruby@2', );
+$c-Sharp2-name: 'c#@2';
+$c-Sharp2-x: 278px;
+$c-Sharp2-y: 71px;
+$c-Sharp2-offset-x: -278px;
+$c-Sharp2-offset-y: -71px;
+$c-Sharp2-width: 62px;
+$c-Sharp2-height: 66px;
+$c-Sharp2-total-width: 340px;
+$c-Sharp2-total-height: 283px;
+$c-Sharp2-image: '../img/sprite@2x.png';
+$c-Sharp2: (278px, 71px, -278px, -71px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'c#@2', );
+$c-Plus2: 'c++@2';
+$c-Plus2-x: 201px;
+$c-Plus2-y: 146px;
+$c-Plus2-offset-x: -201px;
+$c-Plus2-offset-y: -146px;
+$c-Plus2-width: 62px;
+$c-Plus2-height: 66px;
+$c-Plus2-total-width: 340px;
+$c-Plus2-total-height: 283px;
+$c-Plus2-image: '../img/sprite@2x.png';
+$c-Plus2: (201px, 146px, -201px, -146px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'c++@2', );
+$html5-2-name: 'html5@2';
+$html5-2-x: 144px;
+$html5-2-y: 71px;
+$html5-2-offset-x: -144px;
+$html5-2-offset-y: -71px;
+$html5-2-width: 62px;
+$html5-2-height: 66px;
+$html5-2-total-width: 340px;
+$html5-2-total-height: 283px;
+$html5-2-image: '../img/sprite@2x.png';
+$html5-2: (144px, 71px, -144px, -71px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'html5@2', );
+$ios-2-name: 'ios@2';
+$ios-2-x: 211px;
+$ios-2-y: 0px;
+$ios-2-offset-x: -211px;
+$ios-2-offset-y: 0px;
+$ios-2-width: 62px;
+$ios-2-height: 66px;
+$ios-2-total-width: 340px;
+$ios-2-total-height: 283px;
+$ios-2-image: '../img/sprite@2x.png';
+$ios-2: (211px, 0px, -211px, 0px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'ios@2', );
+$java-2-name: 'java@2';
+$java-2-x: 211px;
+$java-2-y: 71px;
+$java-2-offset-x: -211px;
+$java-2-offset-y: -71px;
+$java-2-width: 62px;
+$java-2-height: 66px;
+$java-2-total-width: 340px;
+$java-2-total-height: 283px;
+$java-2-image: '../img/sprite@2x.png';
+$java-2: (211px, 71px, -211px, -71px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'java@2', );
+$javascript-2-name: 'javascript@2';
+$javascript-2-x: 0px;
+$javascript-2-y: 146px;
+$javascript-2-offset-x: 0px;
+$javascript-2-offset-y: -146px;
+$javascript-2-width: 62px;
+$javascript-2-height: 66px;
+$javascript-2-total-width: 340px;
+$javascript-2-total-height: 283px;
+$javascript-2-image: '../img/sprite@2x.png';
+$javascript-2: (0px, 146px, 0px, -146px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'javascript@2', );
+$nodejs-2-name: 'nodejs@2';
+$nodejs-2-x: 130px;
+$nodejs-2-y: 217px;
+$nodejs-2-offset-x: -130px;
+$nodejs-2-offset-y: -217px;
+$nodejs-2-width: 56px;
+$nodejs-2-height: 66px;
+$nodejs-2-total-width: 340px;
+$nodejs-2-total-height: 283px;
+$nodejs-2-image: '../img/sprite@2x.png';
+$nodejs-2: (130px, 217px, -130px, -217px, 56px, 66px, 340px, 283px, '../img/sprite@2x.png', 'nodejs@2', );
+$php-2-name: 'php@2';
+$php-2-x: 144px;
+$php-2-y: 0px;
+$php-2-offset-x: -144px;
+$php-2-offset-y: 0px;
+$php-2-width: 62px;
+$php-2-height: 66px;
+$php-2-total-width: 340px;
+$php-2-total-height: 283px;
+$php-2-image: '../img/sprite@2x.png';
+$php-2: (144px, 0px, -144px, 0px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'php@2', );
+$python-2-name: 'python@2';
+$python-2-x: 278px;
+$python-2-y: 0px;
+$python-2-offset-x: -278px;
+$python-2-offset-y: 0px;
+$python-2-width: 62px;
+$python-2-height: 66px;
+$python-2-total-width: 340px;
+$python-2-total-height: 283px;
+$python-2-image: '../img/sprite@2x.png';
+$python-2: (278px, 0px, -278px, 0px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'python@2', );
+$react-2-name: 'react@2';
+$react-2-x: 77px;
+$react-2-y: 0px;
+$react-2-offset-x: -77px;
+$react-2-offset-y: 0px;
+$react-2-width: 62px;
+$react-2-height: 74px;
+$react-2-total-width: 340px;
+$react-2-total-height: 283px;
+$react-2-image: '../img/sprite@2x.png';
+$react-2: (77px, 0px, -77px, 0px, 62px, 74px, 340px, 283px, '../img/sprite@2x.png', 'react@2', );
+$scala-2-name: 'scala@2';
+$scala-2-x: 191px;
+$scala-2-y: 217px;
+$scala-2-offset-x: -191px;
+$scala-2-offset-y: -217px;
+$scala-2-width: 40px;
+$scala-2-height: 66px;
+$scala-2-total-width: 340px;
+$scala-2-total-height: 283px;
+$scala-2-image: '../img/sprite@2x.png';
+$scala-2: (191px, 217px, -191px, -217px, 40px, 66px, 340px, 283px, '../img/sprite@2x.png', 'scala@2', );
+$sql-2-name: 'sql@2';
+$sql-2-x: 134px;
+$sql-2-y: 146px;
+$sql-2-offset-x: -134px;
+$sql-2-offset-y: -146px;
+$sql-2-width: 62px;
+$sql-2-height: 66px;
+$sql-2-total-width: 340px;
+$sql-2-total-height: 283px;
+$sql-2-image: '../img/sprite@2x.png';
+$sql-2: (134px, 146px, -134px, -146px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'sql@2', );
+$swift-2-name: 'swift@2';
+$swift-2-x: 67px;
+$swift-2-y: 146px;
+$swift-2-offset-x: -67px;
+$swift-2-offset-y: -146px;
+$swift-2-width: 62px;
+$swift-2-height: 66px;
+$swift-2-total-width: 340px;
+$swift-2-total-height: 283px;
+$swift-2-image: '../img/sprite@2x.png';
+$swift-2: (67px, 146px, -67px, -146px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'swift@2', );
+$wordpress-2-name: 'wordpress@2';
+$wordpress-2-x: 0px;
+$wordpress-2-y: 217px;
+$wordpress-2-offset-x: 0px;
+$wordpress-2-offset-y: -217px;
+$wordpress-2-width: 62px;
+$wordpress-2-height: 66px;
+$wordpress-2-total-width: 340px;
+$wordpress-2-total-height: 283px;
+$wordpress-2-image: '../img/sprite@2x.png';
+$wordpress-2: (0px, 217px, 0px, -217px, 62px, 66px, 340px, 283px, '../img/sprite@2x.png', 'wordpress@2', );
+$spritesheet-width: 340px;
+$spritesheet-height: 283px;
+$spritesheet-image: '../img/sprite@2x.png';
+$spritesheet-sprites: ($-android-2, $-angular-j-s-2, $-perl-2, $-ruby-2, $c-Sharp2, $c-Plus2, $html5-2, $ios-2, $java-2, $javascript-2, $nodejs-2, $php-2, $python-2, $react-2, $scala-2, $sql-2, $swift-2, $wordpress-2, );
+$spritesheet: (340px, 283px, '../img/sprite@2x.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

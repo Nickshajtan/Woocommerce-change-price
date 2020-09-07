@@ -1,0 +1,8 @@
+@import '../vars';//variables
+@import '../mixins';//mixins
+
+/** Components **/
+@import '_components/base'; // base
+@import '_components/normalize'; // normalize css file
+//@import '_components/wp-classes'; // styles for wp default classes
+@import '_components/kit'; // custom classes kit

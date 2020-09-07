@@ -1,0 +1,28 @@
+@import '../vars';//variables
+@import '../mixins';//mixins
+
+/** Components **/
+@import '_components/base';
+
+/** SVG sprite **/
+//@import '../../resourses/svg/view/sprite.scss';
+//@import '../../resourses/svg/symbol/svg-sprite.scss';
+
+/** Font Icons **/
+.icon {
+	font-family: 'custom-svgFont';
+	speak: none;
+	font-size:100%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height:1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  
+    &:before{
+      content: '';
+    }
+}
+

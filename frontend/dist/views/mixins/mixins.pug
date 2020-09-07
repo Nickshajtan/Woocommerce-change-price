@@ -1,0 +1,28 @@
+//- Item Mixin 
+mixin gridItem( name, url, url2, text, itemClass )
+  -var $this = (name) ? name + '-wrapper ' : '';
+  if itemClass
+    span(class="item " +$this +itemClass)
+      if name && url === ""
+        i(class="icon svg-common item__icon " +$this +"svg-" +name +" svg-" +name +"-dims")
+      if url !== ""
+        picture
+          //[if IE 9]><video style="display: none;"><![endif]
+          source(srcset="" +url)
+          //[if IE 9]></video><![endif]
+          img.item__icon(src="" +url srcset="" +url class="svg-" +name +"svg-" +name +"-dims" xlink:href="" +url2)
+      if text
+        p.item__text= text
+  else 
+    span(class="item " +$this)
+      if name && url === ""
+        i(class="icon svg-common item__icon " +$this)
+      if url !== ""
+        picture
+          //[if IE 9]><video style="display: none;"><![endif]
+          source(srcset="" +url)
+          //[if IE 9]></video><![endif]
+          img.item__icon(src="" +url srcset="" +url class="svg-" +name +"svg-" +name +"-dims" xlink:href="" +url2 alt="Icon")
+      if text
+        p.item__text= text
+        

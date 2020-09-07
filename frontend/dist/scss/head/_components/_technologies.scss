@@ -1,0 +1,324 @@
+.techologies {
+  padding: 120px 0 88px 0;
+  min-height: 100vh;
+  height: 100%;
+  height: max-content;
+  
+  @supports (display: flex) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 900px) {
+      &__container {
+        border: 0.5px solid $border-grey;
+        border-top: 0;
+        border-radius: 8px;
+        border-top-left-radius: 0;
+        position: relative;
+        
+        &:before {
+          content: '';
+          display: block;
+          float: right;
+          width: 100%;
+          max-width: calc(65% - 5px);
+          height: 0.5px;
+          position: absolute;
+          right: 5px;
+          background-color: $border-grey;
+        }
+      } 
+  }
+  
+  &-content__btn {
+    display: block;
+    max-width: 265px;
+    max-height: 64px;
+    position: relative;
+    left: 47px;
+    right: 0;
+    top: -48px;
+    
+    @media screen and (max-width: 768px) {
+      left: auto;
+      right: auto;
+      margin: auto;
+    }
+    
+    &, 
+    &:focus,
+    &:hover,
+    &:visited {
+      @include font-source-sans(map-get($theme-font-sizes, size-big), $white, map-get($theme-font-weight, weight-normal), map-get($theme-line-heights, line-larger), $secondary-font-family);
+    }
+    
+    &:focus,
+    &:hover,
+    &:visited {
+      transition: 0.3s;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    
+    @include rounded--button($white, 0, relative, $helper-color, 4px 16px);
+  }
+  
+  &-content__grid {
+    margin-top: 26px;
+    padding: 0 15px;
+    
+    @media screen and (min-width:769px) {
+      padding: 75px 31px 63px 47px;
+    }
+    
+    @supports (display: grid) {
+      display: grid;
+      grid-row-gap: 15px;
+      grid-template-columns: repeat(1, 1fr);
+      
+      @media screen and ( min-width: 230px ) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      @media screen and ( min-width: 600px ) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      @media screen and ( min-width: 769px ) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      @media screen and ( min-width: 1260px ) {
+        grid-template-columns: repeat(9, 1fr);
+      }
+    }
+    
+    @supports not (display: grid) { 
+      @supports (display: flex) {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+      }
+      
+      @supports not (display: flex) {
+        display: block;
+        min-height: 200px;
+      }
+      
+    }
+  }
+  
+  &-content__slider,
+  .content-slider {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    
+    &__slide-wrapper,
+    .slide-wrapper {
+      display: block;
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    
+    &__item {
+        li {
+          display: block;
+          float: left;
+          width: 50%;
+        }
+    }
+  }
+  
+  &-content__icon-wrapper {
+    display: block;
+    float: left;
+    min-height: 100px;
+    width: 100%;
+    position: relative;
+    
+    @supports not (display: grid) {
+      width: calc(100% / 2);
+    
+      @media screen and ( min-width: 769px ) {
+        width: calc(100% / 4);
+      }
+
+      @media screen and ( min-width: 1260px ) {
+        width: calc(100% / 9);
+      }
+    }
+    
+    @supports (display:flex) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .item {
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      position: relative;
+      
+      &__icon {
+        background-image: url($images-path + '/sprite@2x.png');
+        width: 72px;
+        height: 64px;
+        display: block;
+        
+        @include push--auto;
+        
+        &.HTML-wrapper {
+          @include sprite($html5-2);
+        }
+        
+        &.JavaScript-wrapper {
+          @include sprite($javascript-2);
+        }
+        
+        &.PHP-wrapper {
+          @include sprite($php-2);
+        }
+        
+        &.CPlus-wrapper {
+          @include sprite($c-Plus2);
+        }
+        
+        &.CSharp-wrapper {
+          @include sprite($c-Sharp2);
+        }
+        
+        &.SQL-wrapper {
+          @include sprite($sql-2);
+        }
+        
+        &.Android-wrapper {
+          @include sprite($-android-2);
+        }
+        
+        &.iOS-wrapper {
+          @include sprite($ios-2);
+        }
+        
+        &.Node-wrapper {
+          @include sprite($nodejs-2);
+        }
+        
+        &.Swift-wrapper {
+          @include sprite($swift-2);
+        }
+        
+        &.Java-wrapper {
+          @include sprite($java-2);
+        }
+        
+        &.Python-wrapper {
+          @include sprite($python-2);
+        }
+        
+        &.Angular-wrapper {
+          @include sprite($-angular-j-s-2);
+        }
+        
+        &.Wordpress-wrapper {
+          @include sprite($wordpress-2);
+        }
+        &.Ruby-wrapper {
+          @include sprite($-ruby-2);
+        }
+        
+        &.React-wrapper {
+          @include sprite($react-2);
+        }
+        
+        &.Scala-wrapper {
+          @include sprite($scala-2);
+        }
+        
+        &.Perl-wrapper {
+          @include sprite($-perl-2);
+        }
+      }
+      
+      &__text {
+        margin: 15px 0;
+        text-align: center;
+        
+        @include font-source-sans(map-get($theme-font-sizes, size-regular), inherit, map-get($theme-font-weight, weight-normal), map-get($theme-line-heights, line-middler), $main-font-family);
+      }
+      
+      @media screen and (min-width: 1200px) {
+          transition: 0.3s;
+          &:hover,
+          &:focus {
+            box-shadow: 0 0 10px transparentize($helper-color, 0.5);
+          }
+        }
+    }
+    
+    @media screen and (min-width: 1200px) { 
+      &:not(:nth-of-type(9n)) {
+        &:after {
+            content: '';
+            height: 90%;
+            width: 1px;
+            right: 0;
+            top: 0;
+            background-color: $border-grey;
+            position: absolute;
+            opacity: 0.5;
+            display: block;
+              
+            @include push--auto;
+        }
+      }
+      
+      &:not(:nth-last-of-type(-n + 9)) {
+        &:before {
+          content: '';
+          height: 1px;
+          width: 90%;
+          bottom: 0;
+          background-color: $border-grey;
+          position: absolute;
+          opacity: 0.5;
+          display: block;
+              
+          @include push--auto;
+        }
+      }
+      
+      &:hover,
+        &:focus {
+            transition: 0.3s;
+          
+          &:after,
+          &:before {
+            display: none;
+          }
+      }
+    }
+    
+    &.no-styled {
+       &:after,
+       &:before {
+          display: none;
+       }
+    }
+  }
+
+  picture {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    
+    @include push--auto;
+  }
+}

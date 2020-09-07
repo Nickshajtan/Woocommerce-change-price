@@ -1,0 +1,13 @@
+@mixin custom--sprite( $width, $height, $url ) {
+  .icon {
+    width:  $width;
+    height: $height;
+    float: left;
+    cursor: pointer;
+    background-image: $url;
+  }
+}
+
+@mixin custom--spr-child( $position ) {
+  background-position: $position;
+}

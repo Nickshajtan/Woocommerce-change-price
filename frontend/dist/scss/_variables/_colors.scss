@@ -1,0 +1,22 @@
+/** Colors **/
+$transparent:  transparent;
+$white:        #fff;
+$black:        #000;
+$dark:         #212529;
+$helper-color: #5cbf1a;
+$border-grey:  #acc1da;
+
+$theme-colors: (
+  primary:   blue,
+  secondary: grey,
+  success:   green,
+  warnibg:   yellow,
+  info:      cyan,
+  danger:    red,
+  dark:      black,
+);
+
+$text-colors: (
+  light: $white,
+  dark:  $dark,
+);

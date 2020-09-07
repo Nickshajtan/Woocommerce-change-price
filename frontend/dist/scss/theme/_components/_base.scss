@@ -1,0 +1,12 @@
+body {
+  ul {
+    margin: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1210px;
+  }
+}

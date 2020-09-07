@@ -1,0 +1,38 @@
+extends ../layouts/base.pug
+block content
+  main
+    section.techologies
+      div.container.techologies__container
+        div.techologies__content-wrapper.techologies-content
+          h1.techologies-content__title
+            a.techologies-content__btn.btn.btn-helper(role="link" href="/")
+              | Main Technologies
+          ul#techno-container.techologies-content__grid            
+            -var gridList = [];
+            -var pngPath  = '';
+            -var svgPath  = '';
+            -gridList.push( {name: 'HTML', atts: { text: 'HTML', url: pngPath, svg: svgPath }} );
+            -gridList.push( {name: 'JavaScript', atts: { text: 'JavaScript', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'PHP', atts: { text: 'PHP', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'CPlus', atts: { text: 'C++', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'CSharp', atts: { text: 'C#', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'SQL', atts: { text: 'SQL', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Android', atts: { text: 'Android', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'iOS', atts: { text: 'iOS', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Node', atts: { text: 'Node', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Swift', atts: { text: 'Swift', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Java', atts: { text: 'Java', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Python', atts: { text: 'Python', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Angular', atts: { text: 'Angular', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Wordpress', atts: { text: 'Wordpress', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Ruby', atts: { text: 'Ruby', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'React', atts: { text: 'React', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Scala', atts: { text: 'Scala', url: pngPath, svg: svgPath}} );
+            -gridList.push( {name: 'Perl', atts: { text: 'Perl', url: pngPath, svg: svgPath}} );
+            each val, index in gridList
+              -var valAtts = val.atts;
+              -var liClass = 'icon-' + index;
+              -liClass = liClass + ' icon-' + val.name;
+              li(class="techologies-content__icon-wrapper icon " +liClass)
+                +gridItem(val.name, valAtts.url, valAtts.svg, valAtts.text, liClass)
+    

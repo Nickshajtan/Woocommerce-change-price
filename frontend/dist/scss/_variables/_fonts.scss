@@ -1,0 +1,11 @@
+/** Fonts Vars **/
+
+$main-font-family: "Cabin", sans-serif;
+$secondary-font-family: "Fjalla One", sans-serif;
+$helper-font-family: inherit;
+
+$theme-fonts: (
+  main-font: $main-font-family,
+  secondary-font: $secondary-font-family,
+  helper-font: $helper-font-family,
+);

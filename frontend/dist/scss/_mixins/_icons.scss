@@ -1,0 +1,122 @@
+$icon_font_name:"custom-svgFont";
+@font-face {
+	font-family:$icon_font_name;
+	src: url('../fonts/custom/custom-svgFont.eot');
+	src: url('../fonts/custom/custom-svgFont.eot?#iefix') format('eot'),
+	url('../fonts/custom/custom-svgFont.woff') format('woff'),
+	url('../fonts/custom/custom-svgFont.ttf') format('truetype'),
+	url('../fonts/custom/custom-svgFont.svg#custom-svgFont') format('svg');
+}
+%icon-uEA01-Android,
+%icon-uEA02-Angular,
+%icon-uEA03-c#,
+%icon-uEA04-c++,
+%icon-uEA05-html5,
+%icon-uEA06-iOS,
+%icon-uEA07-java,
+%icon-uEA08-javascript,
+%icon-uEA09-nodejs,
+%icon-uEA0A-Perl,
+%icon-uEA0B-php,
+%icon-uEA0C-python,
+%icon-uEA0D-react,
+%icon-uEA0E-Ruby,
+%icon-uEA0F-scala,
+%icon-uEA10-sql,
+%icon-uEA11-swift,
+%icon-uEA12-Wordpress,
+%last_selector {
+		&:before {
+			font-family:$icon_font_name;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: normal;
+			// speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+			text-decoration: none;
+			text-transform: none;
+		}
+	}
+
+%icons_before_after {
+	&:before,
+	&:after {
+		font-family: $icon_font_name;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+%icons_after {
+	&:after {
+		font-family: $icon_font_name;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+%icon-uEA01-Android:before {
+	content:'\E001';
+}
+%icon-uEA02-Angular:before {
+	content:'\E002';
+}
+%icon-uEA03-c#:before {
+	content:'\E003';
+}
+%icon-uEA04-c++:before {
+	content:'\E004';
+}
+%icon-uEA05-html5:before {
+	content:'\E005';
+}
+%icon-uEA06-iOS:before {
+	content:'\E006';
+}
+%icon-uEA07-java:before {
+	content:'\E007';
+}
+%icon-uEA08-javascript:before {
+	content:'\E008';
+}
+%icon-uEA09-nodejs:before {
+	content:'\E009';
+}
+%icon-uEA0A-Perl:before {
+	content:'\E00A';
+}
+%icon-uEA0B-php:before {
+	content:'\E00B';
+}
+%icon-uEA0C-python:before {
+	content:'\E00C';
+}
+%icon-uEA0D-react:before {
+	content:'\E00D';
+}
+%icon-uEA0E-Ruby:before {
+	content:'\E00E';
+}
+%icon-uEA0F-scala:before {
+	content:'\E00F';
+}
+%icon-uEA10-sql:before {
+	content:'\E010';
+}
+%icon-uEA11-swift:before {
+	content:'\E011';
+}
+%icon-uEA12-Wordpress:before {
+	content:'\E012';
+}

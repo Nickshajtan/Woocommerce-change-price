@@ -1,0 +1,16 @@
+- var siteTitle = { description: 'Test task for Yozma Tech' }
+head
+  block head-meta
+    include ../includes/head-meta.pug
+    link(rel="profile" href="https://gmpg.org/xfn/11")
+    link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
+  block head-title
+    if siteTitle.description
+      title= siteTitle.description
+    else
+      title This page has not title
+  block head-styles
+    include ../includes/head-styles.pug
+  block head-scripts
+    include ../includes/head-scripts.pug
+    
